@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:padding="30dip"
+              android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:layout_gravity="center">
+
+
+        <TextView
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/resume_title"
+                android:layout_marginBottom="25dip"
+                android:textSize="24.5sp"   />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="ФИО"
+                            android:id="@+id/nameLabel"
+                            android:layout_gravity="left|center_vertical"/>
+
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:ems="10"
+                            android:inputType="textPersonName|textCapWords"
+                            android:id="@+id/nameEditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dip"
+                android:layout_gravity="left|center_vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Дата рождения"
+                            android:id="@+id/dateLabel"
+                            android:layout_gravity="left|center_vertical"/>
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:ems="10"
+
+                            android:id="@+id/dateEditText"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dip"
+                android:layout_gravity="left|center_vertical">
+
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="10dip"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Пол"
+                            android:id="@+id/sexLabel"
+                            android:layout_gravity="left|center_vertical"/>
+
+                    <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+                    </Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="10dip"
+            android:layout_gravity="left|center_vertical">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Должность"
+                                android:id="@+id/functionLabel"
+                                android:layout_gravity="left|center_vertical"/>
+
+                        <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:inputType="textPersonName|textCapSentences"
+                                android:ems="10"
+                                android:id="@+id/functionEditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dip"
+                android:layout_gravity="left|center_vertical">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Зарплата"
+                                android:id="@+id/salaryLabel"
+                                android:layout_gravity="left|center_vertical"/>
+
+                        <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:inputType="number"
+                                android:digits="1234567890/r"
+                                android:ems="10"
+                                android:id="@+id/salaryEditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dip"
+                android:layout_gravity="left|center_vertical">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Телефон"
+                                android:id="@+id/phoneLabel"
+                                android:layout_gravity="left|center_vertical"/>
+
+                        <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:inputType="phone"
+                                android:digits="1234567890+"
+                                android:ems="10"
+                                android:id="@+id/phoneEditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dip"
+                android:layout_gravity="left|center_vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Почта"
+                    android:id="@+id/emailLabel"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/emailEditText"/>
+        </LinearLayout>
+
+
+
+        <Button
+                android:id="@+id/sendResume_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/send_resume"
+                style="@android:style/Widget.Button.Inset"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:/Documents and Settings/Documents and Settings.iml" filepath="C:/Documents and Settings/Documents and Settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Documents and Settings.iml" filepath="$PROJECT_DIR$/../../../Documents and Settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HHtest/HHtest.iml" filepath="$PROJECT_DIR$/HHtest/HHtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HHtestProject.iml" filepath="$PROJECT_DIR$/HHtestProject.iml" />
+    </modules>
+  </component>
+</project>
+

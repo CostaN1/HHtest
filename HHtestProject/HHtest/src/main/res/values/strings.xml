@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HHtest</string>
+    <string name="action_settings">Settings</string>
+    <string name="resume_title"> Резюме </string>
+    <string name="new_resume_title"> Новое резюме </string>
+
+    <string name="send_resume"> Отправить резюме </string>
+    <string name="send_answer"> Отправить ответ </string>
+
+
+
+    <string-array name="sex">
+        <item>не выбрано</item>
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+
+
+
+</resources>
